@@ -4,8 +4,8 @@
 :root {
   --header-height: 3rem;
   /* ==== COLORS ==== */
-  --hue: 0;
-  --sat: 0%;
+  --hue: 230;
+  --sat: 50%;
   /* ==== font and typography ==== */
   --body-font: "Poppins", sans-serif;
   /* 1rem = 16px  */
@@ -40,7 +40,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 100%);
   --text-color: hsl(var(--hue), var(--sat), 54%);
   --body-color: hsl(var(--hue), var(--sat), 18%);
-  --container-color: #333;
+  --container-color: #0e122a;
 }
 /* Light mode styles */
 :root:not(.dark-mode) {
@@ -48,7 +48,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --container-color: #ffffff;
 }
 /* Responsive typography */
 @media screen and (max-width: 992px) {

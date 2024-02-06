@@ -1,6 +1,6 @@
 export const frontEndrow1 = [
       {skills_name: "HTML",skills_level:"Intermediate"},
-      {skills_name: "CSS",skills_level:"Basic"},
+      {skills_name: "CSS",skills_level:"Intermediate"},
       {skills_name: "JavaScript",skills_level:"Intermediate"},
 
 ]

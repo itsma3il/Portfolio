@@ -5,7 +5,7 @@ const Data = () => {
     <div className="home_data">
       <Fade duration={2000} damping={0.2} cascade>
         <h1 className="home_title">
-          John Smith
+          Ismail Mousdik
           <svg
             width="36"
             height="36"
@@ -45,16 +45,16 @@ const Data = () => {
               fill="#EBA352"></path>
           </svg>
         </h1>
-        <h3 className="home_subtitle">Visual Designer</h3>
+        <h3 className="home_subtitle">Full-Stack Developper</h3>
         <p className="home_description">
-          I'm creative designer based in New York, and I'm very passionate and
+          I'm Full-Stack Developper based in Marrakech, and I'm very passionate and
           dedicated to my work.
         </p>
       </Fade>
 
       <Zoom duration={2000} delay={2000}>
         <a href="#contact" className="button button--flex">
-          Say Hello
+          Contact me
           <svg
             className="button__icon"
             xmlns="http://www.w3.org/2000/svg"

@@ -15,7 +15,7 @@ const Header = ({setIsDarkMode}) => {
     <header className="header">
         <nav className="nav container">
           <a href="index.html" className="nav_logo">
-            Smith
+            MOUSDIK
           </a>
           <input onClick={() => setIsDarkMode(prevMode => !prevMode)} type="checkbox" class="theme-checkbox"></input>
           <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>

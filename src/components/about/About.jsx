@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Mousdik-Ismail-CV.pdf";
 import Info from "./Info";
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
           <Info />
           <Fade direction="right" duration={2000}>
             <p className="about_description">
-            Welcome to my web portfolio! I'm Ismail Mousdik, a passionate and detail-oriented full-stack developer based in New York. With a strong foundation in programming languages like HTML, CSS, JavaScript, and PHP, I specialize in creating innovative and visually appealing web solutions. My experience ranges from leading web development projects as the Absence Manager for the NTIC Platform to freelance graphic design work, where I've honed my skills in creating visually compelling content. I'm dedicated to delivering high-quality results and thrive in dynamic, collaborative environments. Let's connect and bring your web projects to life!
+            Welcome to my web portfolio! I'm Ismail Mousdik, a passionate and detail-oriented full-stack developer based in Marrakech. With a strong foundation in programming languages like HTML, CSS, JavaScript, and PHP, I specialize in creating innovative and visually appealing web solutions. My experience ranges from leading web development projects as the Absence Manager for the NTIC Platform to freelance graphic design work, where I've honed my skills in creating visually compelling content. I'm dedicated to delivering high-quality results and thrive in dynamic, collaborative environments. Let's connect and bring your web projects to life!
             </p>
           </Fade>
           <Fade direction="up" duration={2000}>

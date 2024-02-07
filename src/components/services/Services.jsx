@@ -19,7 +19,7 @@ const Services = () => {
             <div>
               <i className="uil uil-web-grid services_icon"></i>
               <h3 className="services_title">
-                Product <br /> Designer
+              Website Design &  <br /> Development
               </h3>
             </div>
             <span className="services_button" onClick={() => toggleTab(1)}>
@@ -36,32 +36,32 @@ const Services = () => {
                 <i
                   onClick={() => toggleTab(0)}
                   className="uil uil-times services_modal-close"></i>
-                <h3 className="services_modal-title">Product Designer</h3>
+                <h3 className="services_modal-title">Website Design and Development</h3>
                 <p className="services_modal-description">
-                  Service with more than 3 years of experience.Providing quality
+                  Service with more than 1 year of experience.Providing quality
                   work to clients and companies.
                 </p>
                 <ul className="services_modal-services grid">
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I develop the user interface.
+                    Customized website designs tailored to your brand's unique identity and target audience.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
-                    <p className="services_modal-info">Web page development.</p>
+                    <p className="services_modal-info">Responsive web development ensuring seamless user experience across all devices.</p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I create ux element interactions.
+                    Implementation of content management systems (CMS) for easy website maintenance and updates.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I position your company brand.
+                    Optimization for speed, performance, and search engine visibility to maximize online presence.
                     </p>
                   </li>
                   <li className="services_modal-service">
@@ -79,7 +79,7 @@ const Services = () => {
             <div>
               <i className="uil uil-arrow services_icon"></i>
               <h3 className="services_title">
-                Ui/Ux <br /> Designer
+              Brand Identity & <br /> Logo Design
               </h3>
             </div>
             <span className="services_button" onClick={() => toggleTab(2)}>
@@ -96,7 +96,7 @@ const Services = () => {
                 <i
                   onClick={() => toggleTab(0)}
                   className="uil uil-times services_modal-close"></i>
-                <h3 className="services_modal-title">Ui/Ux Designer</h3>
+                <h3 className="services_modal-title">Brand Identity &  Logo Design</h3>
                 <p className="services_modal-description">
                   Service with more than 3 years of experience.Providing quality
                   work to clients and companies.
@@ -105,29 +105,29 @@ const Services = () => {
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I develop the user interface.
+                    Creation of visually compelling logos that represent your brand's values and identity.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
-                    <p className="services_modal-info">Web page development.</p>
+                    <p className="services_modal-info">Development of comprehensive brand identity guidelines for consistent branding across all platforms.</p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I create ux element interactions.
-                    </p>
-                  </li>
-                  <li className="services_modal-service">
-                    <i className="uil uil-check-circle services_modal-icon"></i>
-                    <p className="services_modal-info">
-                      I position your company brand.
+                    Design of custom graphics and visual assets to reinforce brand messaging and identity.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      Design and mockups of products for companies.
+                    Collaboration with clients to understand their vision and translate it into impactful designs.
+                    </p>
+                  </li>
+                  <li className="services_modal-service">
+                    <i className="uil uil-check-circle services_modal-icon"></i>
+                    <p className="services_modal-info">
+                    Delivery of logo files in various formats for versatile usage across print and digital media.
                     </p>
                   </li>
                 </ul>
@@ -165,7 +165,7 @@ const Services = () => {
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I develop the user interface.
+                    Creation of visually appealing posters, flyers, and promotional materials to effectively communicate your message.
                     </p>
                   </li>
                   <li className="services_modal-service">
@@ -175,19 +175,19 @@ const Services = () => {
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I create ux element interactions.
+                    Design of eye-catching social media graphics and digital ads to engage your audience and increase brand awareness.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I position your company brand.
+                    Development of cohesive visual branding elements such as color schemes, typography, and imagery to establish a strong brand identity.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      Design and mockups of products for companies.
+                    Collaboration with clients to understand their brand vision and translate it into compelling design concepts.
                     </p>
                   </li>
                 </ul>

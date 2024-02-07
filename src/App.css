@@ -40,7 +40,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 100%);
   --text-color: hsl(var(--hue), var(--sat), 54%);
   --body-color: hsl(var(--hue), var(--sat), 18%);
-  --container-color: #0e122a;
+  --container-color: #161f50;
 }
 /* Light mode styles */
 :root:not(.dark-mode) {

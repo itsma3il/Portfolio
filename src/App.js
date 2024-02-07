@@ -8,10 +8,12 @@ import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualification from "./components/qualification/Qualification";
 import Work from "./components/work/Work";
-import Testimonials from "./components/testimonials/Testimonials";
+// import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
+import Starfield from 'react-starfield';
+
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   useEffect(() => {
@@ -38,11 +40,17 @@ function App() {
         <Services />
         <Qualification />
         <Work />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />
       <ScrollUp />
+      <Starfield
+        starCount={800}
+        starColor={[255, 255, 255]}
+        speedFactor={0.01}
+        backgroundColor="black"
+      />
     </>
   );
 }

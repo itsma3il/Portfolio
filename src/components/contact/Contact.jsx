@@ -32,9 +32,9 @@ const Contact = () => {
               <div className="contact_card">
                 <i className="bx bx-mail-send contact_card-icon"></i>
                 <h3 className="contat_card-title">Email</h3>
-                <span className="contact_card-data">user@gmail.com</span>
+                <span className="contact_card-data">itsma3il@gmail.com</span>
                 <a
-                  href="mailto:examplemail@gmail.com.com"
+                  href="mailto:itsma3il@gmail.com"
                   className="contact_button">
                   Write me{" "}
                   <i className="bx bx-right-arrow-alt contact_button-icon"></i>
@@ -43,10 +43,10 @@ const Contact = () => {
               <div className="contact_card">
                 <i className="bx bxl-whatsapp contact_card-icon"></i>
                 <h3 className="contat_card-title">Whatsapp</h3>
-                <span className="contact_card-data">999-888-777</span>
+                <span className="contact_card-data">+212 650-240-562</span>
+                
                 <a
-                  href="https://api.whatsapp.com/send?phone=0123456789&text=Hello, more information!
-"
+                  href="https://wa.me/212650240562?text=Hello%20Ismail,%20I%20saw%20your%20portfolio%20and%20I'm%20interested%20in%20working%20with%20you."
                   className="contact_button">
                   Write me{" "}
                   <i className="bx bx-right-arrow-alt contact_button-icon"></i>
@@ -55,8 +55,8 @@ const Contact = () => {
               <div className="contact_card">
                 <i className="bx bxl-messenger contact_card-icon"></i>
                 <h3 className="contat_card-title">Messenger</h3>
-                <span className="contact_card-data">user.fb123</span>
-                <a href="https://m.me/anasfalah3" className="contact_button">
+                <span className="contact_card-data">Mousdik.Ismail</span>
+                <a href="https://m.me/Mousdik.Ismail" className="contact_button">
                   Write me{" "}
                   <i className="bx bx-right-arrow-alt contact_button-icon"></i>
                 </a>
